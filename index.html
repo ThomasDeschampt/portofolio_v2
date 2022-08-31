@@ -1,24 +1,26 @@
 <!DOCTYPE html>
 <html lang="fr">
-  <head>
-      <meta charset="UTF-8">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <link rel="icon" type="image/png" href="static/LOGO.png" />
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Portfolio | Thomas DESCHAMPT</title>
-      <meta name="description" content="Bienvenue sur mon portfolio, je m'appelle Thomas DESCHAMPT et je suis étudiant en première année d'informatique à Lyon.">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link rel="icon" type="image/png" href="static/LOGO.png" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfolio | Thomas DESCHAMPT</title>
+        <meta name="description" content="Bienvenue sur mon portfolio, je m'appelle Thomas DESCHAMPT et je suis étudiant en première année d'informatique à Lyon.">
 
-      <link rel="preconnect" href="https://fonts.googleapis.com">
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-      <link href="https://fonts.googleapis.com/css2?family=Sulphur+Point&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Sulphur+Point&display=swap" rel="stylesheet">
 
-      <script type="module" src="/script/script.js" defer></script>
-      <link rel="stylesheet" href="style/style.css">
-  </head>
+        <script type="module" src="/script/script.js" defer></script>
+        <link rel="stylesheet" href="style/style.css">
+    </head>
 
-  <body>
+    <body>
 
+    <!-- menu de navigation -->
         <div id="menu">
+            <!-- lien du menu-->
             <ul>
                 <li><a href="#a_propos">À propos</a></li>
                 <li><a href="#comp">Compétences</a></li>
@@ -27,52 +29,65 @@
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </div>
+        <div id="marge"></div>
         <header id="header_id">
             <div id="accroche">            
                 <div id="nom">Thomas DESCHAMPT </div>
                 <div id="titre">Etudiant en deuxième année d'informatique</div>
             </div>
+            <!--- fond three js avec les vagues -->
             <div id="waves">
                 <canvas class="webgl"></canvas>
             </div>
         </header>
 
-
+        <!--- premiere section -->
         <section id="a_propos">
             <br>
+            <!--- titre de la section -->
                 <h2>À propos.</h2>
+                <!--- texte de la section -->
                 <div id="propos_cont">
                     <p id="desc">&nbsp &nbsp &nbsp Bonjour et bienvenue sur mon portfolio.
                         <br>
                         Je m'appelle Thomas Deschampt, j'ai 19 ans et je suis originaire de Lyon.
                         <br><br>
                         Après avoir obtenu mon bac avec les spécialités « maths et NSI » en 2021, j’ai intégré l’EPSI Lyon.
-                        Actuellement je suis en première année d'études d'informatique dans cette école en suivant un tronc commun 
-                        « Socle numérique », mais je souhaite me spécialiser à l’avenir en développement. Je suis en parallèle un cursus 
-                        pour l’obtention d’un BTS SIO.
+                        Actuellement, je suis en deuxième année d'études d'informatique en suivant un tronc commun « Socle numérique » et en
+                        parallèle, je prépare l'obtention d'un BTS SIO. 
                         <br>
-                        Après ces deux années, je souhaite par la suite préparer un diplome d'ingénieurs, en poursuivant 3 années d'alternance.
+                        Plus tard, j'envisage de me spécialiser en développement.
+                        <br>
+                        Après ces deux années, je souhaite préparer un diplôme d'ingénieur ou équivalent, en poursuivant mes études par 3 années d'alternance.
                         <br><br> 
                         Étant passionné par les nouvelles technologies et le développement depuis de nombreuses années, je serai très heureux 
                         de pouvoir vous aider dans vos futurs projets.<br>
-                        Si vous souhaitez en savoir plus sur moi, mes compétences et mes différents projets, ou tout simplement comment me 
+                        Si vous souhaitez en savoir plus sur moi, mes compétences et mes différents projets, ou tout simplement savoir comment me 
                         contacter, n'hésitez pas à explorer ce site et à me faire des retours.
+                        <br><br>
+                        Bonne lecture et à bientôt.
                     </p>
+                    <!-- Image de presentation-->
                     <img src="static/moi.jpg">
                 </div>
         </section>
-
+ 
+        <!-- Deuxieme secetion compétences-->
         <section id="comp">
+            <!-- titre de la section-->
             <h2>Mes compétences.</h2>
             <div id="comp_div">
+                <!--- tableau de compétences 1 -->
                 <h3>Front-end</h3>
                 <div id="comp_img">
+                    <!--- image de la compétences 1 -->
                     <figure>
                         <a href="https://fr.wikipedia.org/wiki/Hypertext_Markup_Language">
                             <img src="static/comp/html.png" height="100px">
                             <figcaption>HTML</figcaption>
                         </a>
                     </figure>
+                    <!--- image de la compétences 2 -->
                     <figure>
                         <a href="https://fr.wikipedia.org/wiki/Feuilles_de_style_en_cascade">
                             <img src="static/comp/css.png" height="100px">
@@ -94,6 +109,7 @@
                 </div>
             </div>
 
+            <!--- tableau de compétences 2 -->
             <div id="comp_div">
                 <h3>Back-end</h3>
                 <div id="comp_img">
@@ -149,34 +165,41 @@
             </div>
         </section>
 
+
+        <!-- Troisieme section projets-->
         <section id="projet">
             <br>
+            <!--- titre de la section-->
             <h2>Mes projets.</h2>
-
+            <!--- tableau du projet 1 texte a droite et video a gauche -->
             <div class="projet_box">
             <!-- Division pour la partie de gauche-->
-                <div class="gauche_gauche">
+                <div class="gauche1">
                     <video autoplay loop muted>
                         <source src="static/projet/projet1.mp4" type="video/mp4">
-                      Your browser does not support the video tag.
+                      Votre navigateur ne supporte pas les vidéos.
                       </video>
                 </div>
                 <!-- Division pour la partie de droite-->
-                <div class="gauche_droite">
-                    <h3>Mon premier portfolio en 3D</h3>
-                    <p>Dans ce premier essais de Portfolio, assez original, j'ai voulu mettre en oeuvre mes compétences de modélisation et mes compétences en Three JS ; en représentant ma chambre en 3D</p>
+                <div class="droite1">
+                    <h3>Mon premier portfolio en 3D • 2022</h3>
+                    <p>Mon premier essai de Portfolio "assez original".Lors de ma première année d'étude,  j'ai voulu mettre en œuvre mes 
+                        compétences de modélisation et mes compétences en Three JS en représentant ma chambre en 3D. En cliquant sur différents
+                        éléments et objets, il est ainsi possible d’obtenir plus d’informations sur mon profil, mes hobbies…</p>
                     <p>Pour réaliser ce projet j'ai utilisé les langages HTML et CSS pour la conception et la mise en forme du site, 
-                    JavaScript pour mettre en place certaines fonctionnalités (comme la traduction) et pour intégrer de la 3d sur le site grâce à THREE JS.
-                    J'ai aussi utilisé Blender pour modéliser tous les objets 3d présents sur le site. 
+                    JavaScript pour mettre en place certaines fonctionnalités (comme la traduction) et THREE JS afin d’intégrer de la 3D sur le site.
+                    J'ai réalisé la modélisation de chaque objet 3D présents sur le site avec le logiciel Blender.
                     </p>
                     <!-- Division pour la partie en bas à gauche-->
                     <div class="bas">
                         <div>
-                            <a href="https://fr.wikipedia.org/wiki/Feuilles_de_style_en_cascade">CSS</a>
-                            <a href="https://fr.wikipedia.org/wiki/Hypertext_Markup_Language">HTML</a>
-                            <a href="https://fr.wikipedia.org/wiki/Three.js">Three JS</a>
+                            <a href="https://fr.wikipedia.org/wiki/Feuilles_de_style_en_cascade"><b>CSS</b></a>
+                            <a href="https://fr.wikipedia.org/wiki/Hypertext_Markup_Language"><b>HTML</b></a>
+                            <a href="https://fr.wikipedia.org/wiki/JavaScript"><b>JavaScript</b></a>
+                            <a href="https://fr.wikipedia.org/wiki/Three.js"><b>ThreeJS</b></a>
+                            <a href="https://fr.wikipedia.org/wiki/Blender"><b>Blender</b></a>
                         </div>
-                        <a href="https://google.fr">
+                        <a href="https://thomas-deschampt.fr">
                             <img src="static/projet/play1.png" width="28px">
                         </a>
                     </div>
@@ -184,37 +207,38 @@
             </div>
             <br><br>
 
+            <!--- tableau du projet 2 video a droite texte a gauche -->
             <div class="projet_box_1">
-                <!-- Division pour la partie de gauche-->
-                    <div class="gauche_gauche_1">
+                <!-- Division pour la partie de droite-->
+                    <div class="droite2">
                         <video autoplay loop muted>
-                            <source src="static/projet/projet1.mp4" type="video/mp4">
+                            <source src="static/projet/projet2.mp4" type="video/mp4">
                           Your browser does not support the video tag.
                           </video>
                     </div>
-                    <!-- Division pour la partie de droite-->
-                    <div class="gauche_droite_1">
-                        <h3>Simulateur de réactions chimiques</h3>
-                        <p>Dans le cadre de son travail, mon père était amené à mettre en place de réactions chimiques sans avoir de moyen de 
-                            connaitre à l'avance comment allait réagir les produits et en quels quantités les produits allaient être formés.
-                            Ce programme permis ainsi de prevoir à l'avance quelles quantité de réactifs seront consommés et quels produits seront 
-                        formés</p>
-                        <p>Pour réaliser ce projet j'ai utilisé les langages HTML et CSS pour la conception et la mise en forme du site, 
+                    <!-- Division pour la partie de gauche-->
+                    <div class="gauche2">
+                        <h3>Simulateur de réactions chimiques • En cours</h3>
+                        <p>Pour le compte d’un groupe de chimie, j’ai développé un programme de calcul de réactions. Lorsqu’ils formulent, 
+                            les chimistes du groupe Condat mélangent de nombreux réactifs. Selon les quantités et la nature de chaque réactif, les
+                            réactions peuvent être très différentes. La problématique était donc d’obtenir une méthode de calcul simple, rapide,
+                            précise et commune afin de déterminer les produits de réactions.
+                            <br>
+                            Ce programme permet ainsi de prévoir à l'avance les quantités de réactifs consommés et les produits formés, tout
+                            en gagnant un temps considérable de calcul.</p>
+                        <p>Pour réaliser ce projet ; j'ai utilisé les langages HTML et CSS pour la conception et la mise en forme du site, 
                             Python pour mettre toutes les étapes et calculs des réactions et Flask pour relier le code HTML avec l'algorithme 
                             Python.
                         </p>
                         <!-- Division pour la partie en bas à gauche-->
                         <div class="bas">
                             <div>
-                                <a href="https://fr.wikipedia.org/wiki/Feuilles_de_style_en_cascade">CSS</a>
-                                <a href="https://fr.wikipedia.org/wiki/Hypertext_Markup_Language">HTML</a>
-                                <a href="https://fr.wikipedia.org/wiki/Python_(langage)">Python</a>
-                                <a href=https://fr.wikipedia.org/wiki/Flask_(framework)>Flask</a>
+                                <a href="https://fr.wikipedia.org/wiki/Feuilles_de_style_en_cascade"><b>CSS</b></a>
+                                <a href="https://fr.wikipedia.org/wiki/Hypertext_Markup_Language"><b>HTML</b></a>
+                                <a href="https://fr.wikipedia.org/wiki/Python_(langage)"><b>Python</b></a>
+                                <a href=https://fr.wikipedia.org/wiki/Flask_(framework)><b>Flask</b></a>
                             </div>
                             <div>
-                                <a href="https://google.fr">
-                                    <img src="static/projet/play1.png" width="28px">
-                                </a>
                             </div>
                         </div>
                     </div>
@@ -222,33 +246,29 @@
             <br><br>
 
             <div class="projet_box">
-                <!-- Division pour la partie de gauche-->
-                    <div class="gauche_gauche">
+                    <div class="gauche1">
                         <video autoplay loop muted>
-                            <source src="static/projet/projet1.mp4" type="video/mp4">
+                            <source src="static/projet/projet3.mp4" type="video/mp4">
                           Your browser does not support the video tag.
                           </video>
                     </div>
-                    <!-- Division pour la partie de droite-->
-                    <div class="gauche_droite">
-                        <h3>My Timer</h3>
-                        <p>Etant passionné à la fois par le sport et l'informatique, ce projet a été pour moi l'occasion de pouvoir
-                            lier ces deux domaines de manière complémentaire.
-                            Ce site web, regrouppe ainsi différent type de chronomètre (Tabata, ForTime, AMRAP,...) pour facilité tout types de séances
-                            avec un outil adapté à chaque type de pratique.</p>
-                        <p>Pour réaliser ce projet j'ai utilisé les langages HTML et CSS pour la conception et la mise en forme du site, 
-                            et JavaScript pour mettre en place les chronomètres et leur animations.
+                    <div class="droite1">
+                        <h3>My Timer • En cours</h3>
+                        <p>Etant passionné à la fois de sport et d'informatique, ce projet a été pour moi l'occasion de relier ces deux domaines d’activités.<br>
+                            Ce site web regroupe ainsi différents types de chronomètres (Tabata, For-Time, AMRAP,...). Il s’adapte donc à 
+                            de nombreuses pratiques sportives et met à disposition de l’utilisateur un outil de training pour piloter sa séance de sport.</p>
+                        <p>Pour réaliser ce projet, j'ai utilisé les langages HTML et CSS pour la conception et la mise en forme du site, 
+                            et JavaScript pour mettre en place les chronomètres et leurs animations.
                         </p>
-                        <!-- Division pour la partie en bas à gauche-->
                         <div class="bas">
                             <div>
-                                <a href="https://fr.wikipedia.org/wiki/Feuilles_de_style_en_cascade">CSS</a>
-                                <a href="https://fr.wikipedia.org/wiki/Hypertext_Markup_Language">HTML</a>
-                                <a href="https://fr.wikipedia.org/wiki/JavaScript">JavaScript</a>
+                                <a href="https://fr.wikipedia.org/wiki/Feuilles_de_style_en_cascade"><b>CSS</b></a>
+                                <a href="https://fr.wikipedia.org/wiki/Hypertext_Markup_Language"><b>HTML</b></a>
+                                <a href="https://fr.wikipedia.org/wiki/JavaScript"><b>JavaScript</b></a>
                             </div>
                             <div>
-                                <a href="https://google.fr">
-                                    <img src="static/projet/play1.png" width="28px">
+                                <a href="https://github.com/ThomasDeschampt/timer-website">
+                                    <img src="static/projet/github.png" width="28px">
                                 </a>
                             </div>
                         </div>
@@ -257,26 +277,65 @@
         </section>
         
 
+        <!--- troisieme section experiences-->
         <section id="exp">
+            <!--titre de la section-->
             <h2>Mes expériences.</h2>
+            <!--Premiere experience-->
             <div id="experience">
-                <h5>XDO - Designer Farmer</h5>
-                <h6>2022 - Web développeur</h6>
-                <p id="exp_text">Lors de ma première année d'étude, j'ai pu travailler au sein de l'entreprise XDO pour réaliser un stage de deux mois 
-                    en tant que web développeur.<br>
-                    Durant ce stage, j'ai été chargé de mettre en place un nouveau site un web pour que l'entreprise puisse promouvoire ces services 
-                    sur internet. J'avais aussi pour mission de créer une base de données qui permettra à l'entreprise de stocker toutes ses
-                    informations.<br>
-                    J'ai principalement utilisé les langages SQL, HTML, CSS et PHP pour réaliser ces missions
-                </p>
+                <!--Intitulé de l'experience, date et poste-->
+                <div id="exp_titre">
+                    <h5>XDO - Designer Farmer</h5>
+                    <h6>2022 - Web développeur</h6>
+                </div>
+                <!--Description de l'experience-->
+                <div id="exp_text">
+                    <p>&nbsp &nbsp Lors de ma première année d'étude, j'ai pu travailler au sein de l'entreprise XDO, une entreprise spécialisée
+                        en design d'objets, d'espaces et design culinaire. J’ai réalisé un stage d'une durée de deux mois en tant que web développeur.</p>
+                        <p>&nbsp &nbsp Durant ce stage, j'ai été chargé de mettre en œuvre trois missions principales : <br>
+                        &nbsp &nbsp &nbsp &nbsp- Mettre en place un site web pour que l'entreprise puisse promouvoir ces services sur internet<br>
+                        &nbsp &nbsp &nbsp &nbsp- Concevoir une base de données qui permet désormais à XDO de stocker toutes ses informations et aussi de les réutiliser sur le site dynamiquement.<br>
+                        &nbsp &nbsp &nbsp &nbsp- Réaliser une documentation détaillant et expliquant comment modifier le site et la base pour que les membres de l'entreprise puisse
+                        s'y retrouver sans trop de difficultés et surtout sans avoir de connaissance en code.<br>
+                    Pour réaliser ces missions, j'ai principalement utilisé les langages SQL, HTML, CSS, PHP et JavaScript.</p>
+                    <p>Voici quelques pages du site que j'ai conçu ainsi que le modèle conceptuel des données de la base :</p>
+                </div>
+                <!--Slider avec quelques exemples de réalisations-->            
+                <div class="slider">
+                    <!--Image du slider-->
+                    <div class="slide">
+                        <img src="static/experiences/designer_farmer/1.png" alt="projet designer farmer" style="width:100%">
+                    </div>
+                    <div class="slide">
+                        <img src="static/experiences/designer_farmer/2.png" alt="projet designer farmer" style="width:100%">
+                    </div>
+                    <div class="slide">
+                        <img src="static/experiences/designer_farmer/3.png" alt="projet designer farmer" style="width:100%">
+                    </div>
+                    <div class="slide">
+                        <img src="static/experiences/designer_farmer/4.png" alt="projet designer farmer" style="width:100%">
+                    </div>
+                    <!--Bouton pour passer à l'image précédante-->
+                    <a class="prev" onclick="plusslide(-1)">
+                        &laquo
+                    </a>
+                    <!--Bouton pour passer à l'image suivante-->
+                    <a class="next" onclick="plusslide(1)">
+                       &raquo
+                    </a>
+                </div>
             </div>
         </section>
 
+
+        <!--- quatrieme section contact-->
         <section id="contact">
             <br><br><br>
+            <!---titre de la section-->
             <h2>Me contacter.</h2>
-
+            <!---Division avec les différents moyens de contacter-->
             <div id="contact_img">
+                <!--Premier moyen de contact-->
                 <div id="contact_lien">
                     <a href="https://github.com/ThomasDeschampt">
                         <figure>
@@ -303,14 +362,11 @@
 
         <p> 
             -Liste des problèmes : <br>
-                &nbsp &nbsp &nbsp &nbsp &nbsp    - partie presentation fait vide<br>
-                &nbsp &nbsp &nbsp &nbsp &nbsp    - revoir les texte<br>
-                &nbsp &nbsp &nbsp &nbsp &nbsp    - disposition element projet <br>
-                &nbsp &nbsp &nbsp &nbsp &nbsp    - partie me contacter<br>
-                &nbsp &nbsp &nbsp &nbsp &nbsp    - version mobile<br>
-                &nbsp &nbsp &nbsp &nbsp &nbsp    - mettre capture d'écran pour les expériences, illustrer<br>
+                &nbsp &nbsp &nbsp &nbsp &nbsp    - version mobile (menu, redimension)<br>
+                &nbsp &nbsp &nbsp &nbsp &nbsp    - verifier tout 1 par 1<br>
         </p>
 
+        <!---footer-->
         <footer>
             <div id="foot_cont">
                 <p>Site développé par Thomas DESCHAMPT avec HTML, CSS, JavaScript, Three.Js et ViteJs.</p>
@@ -319,8 +375,9 @@
         </footer>
 	</body>
 
+    <!--Script pour faire fonctionner le fond avec vagues-->
     <script type="x-shader/x-vertex" id="vertexshader">
-
+        
         attribute float scale;
 
         void main() {
@@ -332,10 +389,11 @@
             gl_Position = projectionMatrix * mvPosition;
 
         }
-
     </script>
-    <script type="x-shader/x-fragment" id="fragmentshader">
 
+    <!--Script pour faire fonctionner le fond avec vagues-->
+    <script type="x-shader/x-fragment" id="fragmentshader">
+        
         uniform vec3 color;
 
         void main() {
@@ -345,8 +403,9 @@
             gl_FragColor = vec4( color, 1.0 );
 
         }
-
     </script>
+
+    <!--Script pour faire apparaitre / disparaitre le menu-->
     <script>
         var prevScrollpos = window.pageYOffset;
         window.onscroll = function() {
@@ -358,5 +417,33 @@
           }
           prevScrollpos = currentScrollPos;
         }
-        </script>
+    </script>
+
+    <!--Script pour faire fonctionner le slider-->
+    <script>
+        let slideIndex = 1;
+        showslide(slideIndex);
+        
+        function plusslide(n) {
+        showslide(slideIndex += n);
+        }
+        
+        function currentSlide(n) {
+        showslide(slideIndex = n);
+        }
+        function showslide(n) {
+        let i;
+        let slide = document.getElementsByClassName("slide");
+        let dots = document.getElementsByClassName("dot");
+        if (n > slide.length) {slideIndex = 1}    
+        if (n < 1) {slideIndex = slide.length}
+        for (i = 0; i < slide.length; i++) {
+            slide[i].style.display = "none";  
+        }
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slide[slideIndex-1].style.display = "block";  
+        }
+    </script>
 </html>

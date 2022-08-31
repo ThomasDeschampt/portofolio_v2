@@ -6,6 +6,10 @@ body{
   overflow-x: hidden;
 }
 
+html{
+  overflow-x: hidden;
+}
+
 h1{
   font-size: 5vw;
   margin-left: 3vw;
@@ -32,6 +36,7 @@ h6{
 
 video{
   border-radius: 20px;
+  box-shadow: rgba(34, 34, 210, 0.25) 2px 2px 10px 9px;
 }
 
 
@@ -45,10 +50,16 @@ video{
   overflow: hidden;
   z-index: -1;
   height: 100vh;
+  width: 100vw;
 }
 
 
 /* Style du header */
+header{
+  background-color: #101117;
+  z-index: -5;
+}
+
 #waves{
   top: 0px;
   z-index: -1;
@@ -90,15 +101,22 @@ video{
 
 /* Style du menu */
 #menu{
-  position: sticky;
+  position: fixed;
+  background-color: #101117;
+  z-index: 12;
+  width: 100%;
   text-align: center;
   top: 0px;
   margin: 0;
   padding-top: 10px;
-  background-color: #101117;
-  z-index: 6;
   transition: top 0.6s;
   height: 5vh;
+}
+
+#marge{
+  height: 5vh;
+  width: 100%;
+  background-color: #101117;
 }
 
 #menu ul{
@@ -238,7 +256,7 @@ video{
   justify-content: space-between;
 }
 
-.gauche_gauche{
+.gauche1{
   display: flex;
   flex-direction: column;
   align-self: center;
@@ -246,15 +264,15 @@ video{
   z-index: 2;
 }
 
-.gauche_gauche_1{
+.droite2{
   display: flex;
   flex-direction: column;
   align-self: center;
   width: 40vw;
-  z-index: 1;
+  z-index: 2;
 }
 
-.gauche_droite{
+.droite1{
   z-index: 1;
   position: relative;
   display: flex;
@@ -269,8 +287,8 @@ video{
   left: -15px;
 }
 
-.gauche_droite_1{
-  z-index: 2;
+.gauche2{
+  z-index: 1;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -313,9 +331,8 @@ video{
 }
 
 #projet a{
-  color: #050b14;
+  color: #333bdf;
   text-decoration: none;
-  font-size: medium;
   font-style: italic;
 }
 
@@ -335,10 +352,66 @@ h5{
   z-index: 2;
 }
 
+#experience{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: rgba(51, 59, 223, 1) 0px 3px 8px;
+  border-radius: 12px;
+  width: 90vw;
+  margin-left: 5vw;
+}
+
 #exp_text{
-  text-align: center;
   padding-left: 15px;
   padding-right: 15px;
+}
+
+.slider{
+  width: 80%;
+  position: relative;
+  margin: 0;
+}
+
+.slide{
+  display: none;
+  align-self: center;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+} 
+
+.slide img{
+  border-radius: 12px;
+} 
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: 1vw;
+  padding: 16px;
+  margin-top: -22px;
+  color: black;
+  font-weight: bold;
+  font-size: 24px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+@media only screen and (max-width: 300px) {
+  .prev, .next {font-size: 11px}
 }
 
 #exp:after {
@@ -419,19 +492,19 @@ footer{
     flex-direction: column;
   }
   
-  .gauche_gauche{
+  .gauche1{
     display: flex;
     flex-direction: column;
     width: 80vw;
   }
 
-  .gauche_gauche_1{
+  .droite2{
     display: flex;
     flex-direction: column;
     width: 80vw;
   }
    
-  .gauche_droite{
+  .droite1{
     z-index: 1;
     position: relative;
     display: flex;
@@ -446,7 +519,7 @@ footer{
     left: 0px;
   }
 
-  .gauche_droite_1{
+  .gauche2{
     z-index: 1;
     position: relative;
     display: flex;
@@ -475,13 +548,13 @@ footer{
     flex-direction: column;
   }
     
-  .gauche_gauche{
+  .gauche1{
     display: flex;
     flex-direction: column;
     width: 80vw;
   }
 
-  .gauche_droite_1{
+  .gauche2{
     z-index: 1;
     position: relative;
     display: flex;
@@ -507,7 +580,7 @@ footer{
     flex-direction: column;
   }
     
-  .gauche_gauche_1{
+  .droite2{
     display: flex;
     flex-direction: column;
     width: 80vw;
@@ -526,14 +599,14 @@ footer{
     color: white;
   }
   
-  .gauche_droite{
+  .droite1{
     display: flex;
     flex-direction: column;
     width: 80vw;
     justify-content: center;
   }
 
-  .gauche_droite_1{
+  .gauche2{
     display: flex;
     flex-direction: column;
     width: 80vw;
