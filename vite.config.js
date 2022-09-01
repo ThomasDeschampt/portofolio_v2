@@ -11,6 +11,7 @@ module.exports = defineConfig({
         external: [
           "/scripts/script.js",
           "/style/style.css",
+          "/static/three/three.module.js",
         ],
     }
   }
