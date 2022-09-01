@@ -9,7 +9,7 @@ module.exports = defineConfig({
         main: resolve(__dirname, 'index.html'),
       },
         external: [
-          "/three.module.js",
+          "/script/three.module.js",
         ],
     }
   }
