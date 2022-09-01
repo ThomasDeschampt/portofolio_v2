@@ -1,4 +1,4 @@
-import * as THREE from '/three.module.js';
+import * as THREE from '/script/three.module.js';
 
 const canvas = document.querySelector('canvas.webgl')
 const SEPARATION = 40, AMOUNTX = 130, AMOUNTY = 35;
