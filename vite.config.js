@@ -10,6 +10,7 @@ module.exports = defineConfig({
       },
         external: [
           "/static/three/three.module.js",
+          "./static/three/three.module.js",
           "/three/three.module.js",
           "/three.module.js",
         ],
