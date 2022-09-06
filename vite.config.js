@@ -12,7 +12,6 @@ module.exports = defineConfig({
           "/script/three.module.js",
           "/three.module.js",
           "/static/experiences/designer_farmer/rapport.pdf"
-          "static/experiences/designer_farmer/rapport.pdf"
         ],
     }
   }
