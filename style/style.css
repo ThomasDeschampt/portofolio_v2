@@ -600,7 +600,7 @@ footer{
   }
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 392px) {
 	#menu{
 	  position: fixed;
 	  background-color: #101117;
