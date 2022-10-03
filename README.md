@@ -1,5 +1,6 @@
 # portofolio_v2
 
-Version 2 de mon portfolio 
+Voici la seconde version de mon portfolio.
+Vous pouvez le retrouver avec ce lien :
 
-EN CONSTRUCTION
+https://thomas-deschampt.fr
