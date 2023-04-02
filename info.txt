@@ -1,0 +1,22 @@
+LISTE A FAIRE :
+    A PROPOS : 
+        RAJOUTER UN DIAGRAMME OU MIEUX EXPLIQUER MON PARCOURS                   A FAIRE
+        POURQUOI L'INFORMATIQUE                                                 A FAIRE
+        DETAILLER BTS SIO                                                       A FAIRE
+
+    MES PROJETS : 
+        AJOUTER LES NOUVEAUX PROJETS (GRAPH TWITTER)                            A FAIRE
+        AJOUTER LES PROJETS PPE                                                 A FAIRE
+        PLUS DEVELOPPER LES PROJETS ?                                           A FAIRE
+
+    MES EXPERIENCES :
+        REVOIR LA PARTIE XDO                                                    A FAIRE
+        DEVELOPPER LA PARTIE CGI                                                A FAIRE
+        METTTRE LE RAPPORT DE STAGE AVEC MOT DE PASSE ?                         A FAIRE
+
+    VEILLE : 
+        METTRE UNE VEILLE TECHNOLOGIQUE                                         A FAIRE
+        METTRE UNE VEILLE JURIDIQUE                                             A FAIRE
+
+    MENU : 
+        VERIFIER LE RESPONSIVE                                                  A FAIRE
