@@ -7,7 +7,6 @@ LISTE A FAIRE :
     MES PROJETS : 
         AJOUTER LES NOUVEAUX PROJETS (GRAPH TWITTER)                            A FAIRE
         AJOUTER LES PROJETS PPE                                                 A FAIRE
-        PLUS DEVELOPPER LES PROJETS ?                                           A FAIRE
 
     MES EXPERIENCES :
         REVOIR LA PARTIE XDO                                                    A FAIRE
