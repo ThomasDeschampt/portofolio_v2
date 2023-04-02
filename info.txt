@@ -17,6 +17,3 @@ LISTE A FAIRE :
     VEILLE : 
         METTRE UNE VEILLE TECHNOLOGIQUE                                         A FAIRE
         METTRE UNE VEILLE JURIDIQUE                                             A FAIRE
-
-    MENU : 
-        VERIFIER LE RESPONSIVE                                                  A FAIRE
