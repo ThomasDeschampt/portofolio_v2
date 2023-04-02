@@ -363,7 +363,7 @@ h5{
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  box-shadow: rgba(51, 59, 223, 1) 0px 3px 8px;
+  box-shadow: rgba(51, 59, 223, 1) 0px 3px 12px;
   border-radius: 12px;
   width: 90vw;
   margin-left: 5vw;
