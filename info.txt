@@ -10,7 +10,6 @@ LISTE A FAIRE :
     MES EXPERIENCES :
         REVOIR LA PARTIE XDO                                                    A FAIRE
         DEVELOPPER LA PARTIE CGI                                                A FAIRE
-        METTTRE LE RAPPORT DE STAGE AVEC MOT DE PASSE ?                         A FAIRE
 
     VEILLE : 
         METTRE UNE VEILLE TECHNOLOGIQUE                                         A FAIRE
