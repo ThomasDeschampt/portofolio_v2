@@ -1,9 +1,4 @@
 LISTE A FAIRE :
-    A PROPOS : 
-        MIEUX EXPLIQUER MON PARCOURS                                            A FAIRE
-        POURQUOI L'INFORMATIQUE                                                 A FAIRE
-        DETAILLER BTS SIO                                                       A FAIRE
-
     MES PROJETS : 
         AJOUTER LES PROJETS PPE                                                 A FAIRE
 
@@ -14,3 +9,7 @@ LISTE A FAIRE :
     VEILLE : 
         METTRE UNE VEILLE TECHNOLOGIQUE                                         A FAIRE
         METTRE UNE VEILLE JURIDIQUE                                             A FAIRE
+
+
+
+    FAUT IL DECRIRE LE BTS COMME LES PORTFOLIO DU NET ???                       A DEMANDER
