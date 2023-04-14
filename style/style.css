@@ -436,6 +436,18 @@ h5{
   transform: skewY(3deg);
 }
 
+/* Style de la partie veille */
+#veille p{
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+#veille a{
+  color: #333bdf;
+  text-decoration: none;
+  font-style: italic;
+  padding-left: 20px;
+}
 
 /* Style de la partie contact */
 #contact_img{
