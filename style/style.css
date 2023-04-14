@@ -449,6 +449,30 @@ h5{
   padding-left: 20px;
 }
 
+#veille_boxe{
+  margin-top: 3%;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+
+#veille_gauche{
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  width: 69vw;
+  z-index: 2;
+}
+
+#veille_droite{
+  z-index: 1;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 30vw;
+  justify-content: center;
+}
+
 /* Style de la partie contact */
 #contact_img{
   display: flex;
@@ -560,6 +584,28 @@ footer{
     width: 90%;
     position: relative;
     margin: 0;
+  }
+
+  #veille_boxe{
+    margin-top: 3%;
+    width: 93vw;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #veille_gauche{
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+  }
+  
+  #veille_droite{
+    z-index: 1;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    align-self: center;
   }
 }
 
