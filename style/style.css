@@ -588,7 +588,7 @@ footer{
 
   #veille_boxe{
     margin-top: 3%;
-    width: 93vw;
+    width: 100vw;
     display: flex;
     flex-direction: column;
   }
@@ -596,7 +596,7 @@ footer{
   #veille_gauche{
     display: flex;
     flex-direction: column;
-    width: 80vw;
+    width: 96vw;
   }
   
   #veille_droite{
